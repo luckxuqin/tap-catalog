@@ -7,11 +7,11 @@ metadata:
     'backstage.io/techdocs-ref': dir:.
 spec:
   targets:
-    - ./components/yelb-ui/yelb-ui.yaml
-    - ./components/redis-server/redis-server.yaml
-    - ./components/yelb-db/yelb-db.yaml
-    - ./components/yelb-appserver/yelb-appserver.yaml
-    - ./groups/org.yaml
-    - ./systems/yelb-system.yaml
-    - ./resources/yelb-db-resource.yaml
-    - ./domains/cloudapps-domain.yaml
+    - https://github.com/luckxuqin/tap-catalog/blob/main/components/yelb-ui/yelb-ui.yaml
+    - https://github.com/luckxuqin/tap-catalog/blob/main/components/redis-server/redis-server.yaml
+    - https://github.com/luckxuqin/tap-catalog/blob/main/components/yelb-db/yelb-db.yaml
+    - https://github.com/luckxuqin/tap-catalog/blob/main/components/yelb-appserver/yelb-appserver.yaml
+    - https://github.com/luckxuqin/tap-catalog/blob/main/groups/org.yaml
+    - https://github.com/luckxuqin/tap-catalog/blob/main/systems/yelb-system.yaml
+    - https://github.com/luckxuqin/tap-catalog/blob/main/resources/yelb-db-resource.yaml
+    - https://github.com/luckxuqin/tap-catalog/blob/main/domains/cloudapps-domain.yaml
