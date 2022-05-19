@@ -1,13 +1,17 @@
 apiVersion: backstage.io/v1alpha1
 kind: Location
 metadata:
-  name: tap-gui-catalog-info
-  description: A sample catalog for Backstage
+  name: yelb-catalog-info
+  description: A sample catalog for the yelb application
   annotations:
     'backstage.io/techdocs-ref': dir:.
 spec:
   targets:
-    - ./components/tap-gui.yaml
-    - ./groups/default-org.yaml
-    - ./systems/tap-gui-system.yaml
-    - ./domains/tap-gui-domain.yaml
+    - https://github.com/luckxuqin/tap-catalog/blob/main/components/yelb-ui/yelb-ui.yaml
+    - https://github.com/luckxuqin/tap-catalog/blob/main/components/redis-server/redis-server.yaml
+    - https://github.com/luckxuqin/tap-catalog/blob/main/components/yelb-db/yelb-db.yaml
+    - https://github.com/luckxuqin/tap-catalog/blob/main/components/yelb-appserver/yelb-appserver.yaml
+    - https://github.com/luckxuqin/tap-catalog/blob/main/groups/org.yaml
+    - https://github.com/luckxuqin/tap-catalog/blob/main/systems/yelb-system.yaml
+    - https://github.com/luckxuqin/tap-catalog/blob/main/resources/yelb-db-resource.yaml
+    - https://github.com/luckxuqin/tap-catalog/blob/main/domains/cloudapps-domain.yaml
